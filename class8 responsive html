@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Wireframe</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="wireframe.css">
+	</head>
+	<body>
+        <nav>
+            <h3>Source</h3>
+            <a href="#" class="toggle-bar">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <ul>
+                <li><a href="#">First Link</a></li>
+                <li><a href="#">Second Link</a></li>
+                <li><a href="#">Third Link</a></li>
+                <li><a href="#">Fourth Link</a></li>
+            </ul>
+            <button>button</button>
+        </nav>
+        <section class="container">
+            <section class="first">
+                <h5>Tagline</h5>
+                <h1>Source helps<br>
+                    creators do more<br>
+                    of what they love</h1>
+                    <form>
+                        <input type="text" placeholder="Search"><button>Button</button>
+                        
+                    </form>
+                   
+                    <p>A device that enables collaboration will lesser<br>
+                        the chance of work having to be completely redone.</p>
+            </section>
+            <section class="first">
+                <img src="laptop-phone.jpeg" alt="Desktop-Mobile">
+            </section>
+            <section class="secondcontainer">
+                <section>
+                    <img src="#" alt="Feature One">
+                    <h4>Feature One</h4>
+                    <p>In such a test, the user performs<br>
+                        realistic tasks by interacting with<br>
+                        the paner prototvoe</p>
+                        <a hfre="#">First Link</a>
+                </section>
+                <section>
+                    <img src="#" alt="Feature Two">
+                    <h4>Feature Two</h4>
+                    <p>Three techniques of paper
+                        prototyping used for usability
+                        testing are comps, wireframes</p>
+                        <a hfre="#">Second Link</a>
+                </section>
+                <section>
+                    <img src="#" alt="Feature Three">
+                    <h4>Feature Three</h4>
+                    <p>Rapid prototyping involves 
+                        a group of designers who each
+                        create a paper prototype</p>
+                        <a hfre="#">Third Link</a>
+                </section>
+                <section>
+                    <img src="#" alt="Feature Four">
+                    <h4>Feature Four</h4>
+                    <p>Functionalitv is similarly
+                        unimnortant. but in this case are
+                        closer to the final product</p>
+                        <a hfre="#">Fourth Link</a>
+                </section>
+            </section>
+        </section>
+        <section class="thirdcontainer">
+            <section>
+                <h1>Collecting information<br>
+                    about the problem</h1>
+                    <p>In the context of information architecture, information is separate from<br>
+                        both knowledge and data, and lies nebulouslv between them.</p>
+                        <section></section>
+            </section>
+            <section></section>
+        </section>
+	</body>
+</html>
