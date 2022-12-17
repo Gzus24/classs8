@@ -1,4 +1,4 @@
 # classs8
-recreate two webpages
+recreate four webpages
 
-For this work we are tasked to recreate two webpages from two webpages already created. one webpage has to be responsive and converts to mobile version using @media
+For this work we are tasked to recreate four webpages from four webpages already created. one webpage has to be responsive that converts to mobile version using @media
