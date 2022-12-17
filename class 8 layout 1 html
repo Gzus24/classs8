@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Blank Template</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="layout.css">
+	</head>
+	<body>
+        <nav>
+            <img src="#" alt="tech crunch logo">;
+            <a href="#"">log in </a>
+            
+            <ul>
+                <li><form><input type="text" placeholder="Search"></form></li>
+				<li><a href="#">Startups</a></li>
+				<li><a href="#">Venture</a></li>
+				<li><a href="#">Security</a></li>
+				<li><a href="#">Crypto</a></li>
+				<li><a href="#">Apps</a></li>
+				<li><a href="#">Gift Guides</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Advertise</a></li>
+            </ul>
+        </nav>
+        <section class="china">
+            <span>Extra Crunch</span>
+            <h1>What China's fintech market can teach the world</h1>
+            <p>Finance researcher Martin Chorzempa discusses Ant Group, payments networks</p>
+            <img src="techchina.webp" alt="touch screen computer">
+
+        </section>
+        <section class="four-sect">
+            <section>
+                <h3>SellerX raises $118M to buy up and grow Amazon marketplace businesses</h3>
+                <span>Ingrid Lunden</span>
+            </section>
+            <section>
+                <h3>Spotify opens a marketplace for Canvas looping artwork designers</h3>
+                <span>IBrian Heater</span>
+            </section>
+            <section>
+                <h3>Instagram revamps its mobile messaging app Threads</h3>
+                <span>Sarah Perez</span>
+            </section>
+            <section>
+                <h3>SZenBusiness snags $55M Series B for its incorporation and growth platform for micro businessess</h3>
+                <span>Danny Crichtor</span>
+            </section>
+        
+        </section>
+	
+            <script type="text/javascript" src="js/main.js"></script>
+        </body>
+    </html>
+
+    .end {
+        width: 100%;
+        clear:both;
+        background: 
+        
+      }
+      .end section {
+        float: left;
+      }
+      .end > section {
+        background: rgb(13, 21, 25);
+        width: 50%;
+        padding-bottom: 2%;
+      
+      }
+      .end span {
+        display: block;
+        margin-left: 2.8%;
+        color: rgb(106, 124, 140);
+       
+      }
+      .end a {
+        margin-right: 3%;
+        text-decoration: none;
+        color: #ffffff;
+      }
+  .end ul {
+    margin-top: 0;
+  }
+  .end img {
+    margin-bottom: 1%;
+    padding-top: 3%;
+  }
+  .address {
+  width: 50%;
