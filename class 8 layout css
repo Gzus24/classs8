@@ -1,0 +1,61 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+ nav, .china, .four-sect {
+    float: left;
+    width: 10%;
+ }
+ .china {
+    width: 45%;
+    margin-left: 35px;
+ }
+ .four-sect {
+    width: 30%;
+    margin-right: 80px;
+ }
+ ul {
+    list-style-type: none;
+    padding: 0;
+ }
+ .china img {
+    width: 80%;
+ }
+ li a {
+    margin-top: 10px;
+    text-decoration: none;
+ }
+ li {
+    margin-top: 15px;
+ }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
