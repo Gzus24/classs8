@@ -1,0 +1,306 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+
+  }
+
+  
+    /******************************************
+    /* LAYOUT
+    /*******************************************/
+    @media (min-width: 501px) {
+    nav ,ul , li,button, h3  {
+      float: left;
+    }
+    nav {
+      width: 100%;
+      height: 50%;
+      padding-top: 10px;
+      padding-bottom: 3%;
+      background: rgb(224, 228, 238);
+    }
+    nav button {
+      width: 5%;
+      background: rgb(7, 7, 68);
+      color: white;
+      margin-left: 4%;
+    }
+    nav li {
+      width: 20%;
+      display: block;
+    }
+    nav ul {
+      width: 55%;
+    }
+    nav a {
+     text-decoration: none;
+     color: rgb(7, 7, 68);
+    } nav h3 {
+      width: 33%;
+      padding-left: 3%; 
+      color: rgb(7, 7, 68);
+    }
+    /******Container******/
+    
+    .container {
+      width: 100%;
+      border: 2px solid blue;
+      background: rgb(151, 157, 173);
+    }
+    .container .first {
+      width: 50%;
+      height: 500px;
+      float: left;
+      position: relative;
+      background: rgb(224, 228, 238);
+    }
+    .container .first img {
+      width: 85%;
+      margin-left: 22%;
+    }
+    .first h1 {
+      width: 50%;
+      font-size:  35px;
+      margin-bottom: 5%;
+     margin: 0 auto;
+    color:rgb(7, 7, 68);
+    }
+    .first h5 {
+      padding-left: 25%;
+      margin-bottom: 2%;
+      color:rgb(7, 7, 68);
+      margin-top: 5%;
+    }
+    .first button {
+      width: 10%;
+      margin-left: 30%;
+      color:#ffffff;
+      background:rgb(7, 7, 68);
+    }
+    .first form {
+      margin: 3% 0;
+    }.first p {
+      width: 55%;
+      margin-left:183px;
+      color: rgb(7, 7, 68);
+      margin-top: 5%;
+    }
+    
+     /****** Second Container******/
+    
+    .secondcontainer {
+      width: 100%;
+    }
+      .secondcontainer section {
+        width: 25%;
+        float: left;
+        background: rgb(224, 228, 238);
+        padding-bottom: 5%;
+      }
+      .secondcontainer img {
+        margin-top: 25%;
+        margin-bottom: 5%;
+      }
+      .secondcontainer h4 {
+        margin-bottom: 5%;
+      }
+      .secondcontainer p {
+        margin-bottom: 5%;
+        width: 60%;
+      } 
+      /****** Third Container******/
+    
+      .thirdcontainer {
+        width: 100%;
+        clear: both;
+      }
+      .thirdcontainer > section {
+        padding-top: 5%;
+      }
+      .thirdcontainer h1 {
+        font-size:  50px;
+        margin-left:183px;
+        color: rgb(7, 7, 68);
+        margin-bottom: 2%;
+      }
+      .thirdcontainer p {
+        margin-left:183px;
+        color: rgb(7, 7, 68);
+        color: rgb(128, 152, 185);
+        font-size: 22px;
+    
+      }
+      .thirdcontainer section+section {
+       height: 400px;
+       width: 70%;
+       background:rgb(224, 228, 238);
+       margin-left:183px;
+       margin-top: 5%;
+      }
+    .toggle-bar {
+      position: absolute;
+      top: 2%;
+      left: 2%;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 31px;
+      height: 21px;
+    }
+    .bar {
+      height: 3px;
+      width: 100%;
+      background: black;
+      border-radius: 10px;
+    }
+  }
+ 
+  /****** Media Queries ******/
+
+  @media screen and (max-width: 500px) {
+    /******Nav******/
+    nav {
+      width: 100%;
+      border-bottom: 1px solid black;
+      float: left;
+      background: rgb(224, 228, 238);
+    }
+    nav h3 {
+      font-size: 35px;
+      width: 15%;
+      margin-left: 38%;
+      padding: 3% 0 ;
+
+    }
+    nav button {
+      display: none;
+    }
+    nav ul {
+      display: none;
+      padding-left: 40%;
+      padding-bottom: 3%;
+    }
+   .toggle-bar {
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+   }
+   nav ul li {
+  margin-bottom: 2%;
+  list-style: none;
+   }
+   nav ul li a {
+    text-decoration: none;
+    color: rgb(7, 7, 68);
+   }
+  .bar {
+    height: 3px;
+    width: 100%;
+    background: black;
+    border-radius: 10px;
+  }
+   /******Containers******/
+   .container {
+    width: 100;
+    clear: both;
+   }
+   .container section {
+    width: 100%;
+    background: rgb(224, 228, 238);
+    padding-left: 4%;
+   padding-top: 3%;
+   }
+   .container h5 {
+    color: rgb(128, 152, 185);
+    margin: 2% 0;
+   }
+   .container h1 {
+    font-size: 50px;
+    padding-bottom: 5%;
+   }
+   .container input {
+    width:90%;
+    padding: 10px 0;
+   }
+   .container button {
+    margin-top: 3%;
+    width: 90%;
+    padding: 10px 0;
+    background:rgb(7, 7, 68);
+    color: #ffffff;
+    margin-bottom: 3%;
+   } 
+   .container p {
+    width: 80%;
+    font-size: 20px;
+    padding-bottom: 5%;
+   }
+   .container .first img {
+    width: 100%;
+   }
+   /****** Second Container******/ 
+
+   .secondcontainer {
+    width: 100%;
+   }
+   .secondcontainer section {
+    width: 100%;
+    background: rgb(224, 228, 238); ;
+    border: 1px solid rgb(128, 152, 185);
+    padding-bottom: 5%;
+   }
+   .secondcontainer h4, p, img {
+    padding-bottom: 3%;
+    color:rgb(7, 7, 68);
+   }
+/******Third Container******/
+.thirdcontainer {
+  width:100%;
+}
+.thirdcontainer section {
+  padding-left: 4%;
+}
+.thirdcontainer h1 {
+  font-size: 35px;
+ padding: 3% 0;
+ color:rgb(7, 7, 68);
+  }
+  .thirdcontainer p {
+    width: 100%;
+    font-size: 18px;
+    color: rgb(128, 152, 185);
+}
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
